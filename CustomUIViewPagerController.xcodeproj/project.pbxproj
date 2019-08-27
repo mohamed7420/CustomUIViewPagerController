@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA049376231547170007B8D7 /* CustomViewPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA049375231547170007B8D7 /* CustomViewPageViewController.swift */; };
+		BA0493782315484E0007B8D7 /* SecondViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0493772315484E0007B8D7 /* SecondViewPage.swift */; };
 		BA0AC04823140FAF007DCD1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0AC04723140FAF007DCD1A /* AppDelegate.swift */; };
 		BA0AC04A23140FAF007DCD1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0AC04923140FAF007DCD1A /* ViewController.swift */; };
 		BA0AC04D23140FAF007DCD1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0AC04B23140FAF007DCD1A /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA049375231547170007B8D7 /* CustomViewPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewPageViewController.swift; sourceTree = "<group>"; };
+		BA0493772315484E0007B8D7 /* SecondViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewPage.swift; sourceTree = "<group>"; };
 		BA0AC04423140FAF007DCD1A /* CustomUIViewPagerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomUIViewPagerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0AC04723140FAF007DCD1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA0AC04923140FAF007DCD1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				BA0AC04E23140FB1007DCD1A /* Assets.xcassets */,
 				BA0AC05023140FB1007DCD1A /* LaunchScreen.storyboard */,
 				BA0AC05323140FB1007DCD1A /* Info.plist */,
+				BA049375231547170007B8D7 /* CustomViewPageViewController.swift */,
+				BA0493772315484E0007B8D7 /* SecondViewPage.swift */,
 			);
 			path = CustomUIViewPagerController;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA0AC04A23140FAF007DCD1A /* ViewController.swift in Sources */,
+				BA049376231547170007B8D7 /* CustomViewPageViewController.swift in Sources */,
 				BA0AC04823140FAF007DCD1A /* AppDelegate.swift in Sources */,
+				BA0493782315484E0007B8D7 /* SecondViewPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

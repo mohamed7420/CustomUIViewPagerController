@@ -1,20 +1,21 @@
 //
-//  ViewController.swift
+//  SecondViewPage.swift
 //  CustomUIViewPagerController
 //
-//  Created by Mohamed on 8/26/19.
+//  Created by Mohamed on 8/27/19.
 //  Copyright © 2019 Mohamed74. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewPage : UIViewController {
+    
     
     
     
     let imageView:UIImageView = {
         
-        let image =  UIImageView(image: UIImage(named: "img2"))
+        let image =  UIImageView(image: UIImage(named: "img1"))
         
         image.translatesAutoresizingMaskIntoConstraints = false
         image.contentMode = .scaleAspectFit
@@ -77,7 +78,7 @@ class ViewController: UIViewController {
         
     }
     
-   
+    
     
     let textDescription:UITextView = {
         
@@ -96,26 +97,18 @@ class ViewController: UIViewController {
         return textView
     }()
     
-   
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-      configureOurView()
+        
+        self.configureOurView()
         
         makeCustomStackView()
-        
     }
     
-   
     
 }
-
-
-
-
-
-extension ViewController  {
+extension SecondViewPage  {
     
     private func configureOurView(){
         
@@ -125,7 +118,7 @@ extension ViewController  {
         view.addSubview(textDescription)
         view.addSubview(containerView)
         containerView.translatesAutoresizingMaskIntoConstraints = false
-//        containerView.backgroundColor = #colorLiteral(red: 0.06274510175, green: 0, blue: 0.1921568662, alpha: 1)
+        //        containerView.backgroundColor = #colorLiteral(red: 0.06274510175, green: 0, blue: 0.1921568662, alpha: 1)
         containerView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         containerView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         containerView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
@@ -153,4 +146,5 @@ extension ViewController  {
     }
     
 }
+
 
